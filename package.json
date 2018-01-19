@@ -1,0 +1,19 @@
+{
+  "name": "jsbin-sassy",
+  "version": "1.0.0",
+  "description": "Transpiles SCSS to CSS (for jsbin)",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.15.3",
+    "node-sass": "^4.5.3",
+    "body-parser": "^1.17.2"
+  },
+  "engines": {
+    "node": "8.x"
+  },
+  "license": "MIT",
+  "keywords": ["node", "jsbin", "sass", "scss"]
+}
